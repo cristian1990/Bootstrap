@@ -1,0 +1,11 @@
+div:not(.bg-success) {
+    background-color: blueviolet;
+    display: inline;
+    padding: 15px;
+    color: azure;
+    margin: 15px;
+}
+
+p {
+    background-color: antiquewhite;
+}
