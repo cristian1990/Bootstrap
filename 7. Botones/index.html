@@ -1,0 +1,152 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- etiquetas meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- para iconos -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Botones</title>
+  </head>
+  <body>
+
+    <br>  <!-- botones con colores simples -->
+
+    <button class="btn btn-primary">Prueba</button>
+    <button class="btn btn-secondary">Prueba</button>
+    <button class="btn btn-info">Prueba</button>
+    <button class="btn btn-warning">Prueba</button>
+    <button class="btn btn-danger">Prueba</button>
+    <button class="btn btn-light">Prueba</button>
+    <button class="btn btn-dark">Prueba</button>
+    <button class="btn btn-link">Prueba</button>
+
+    <hr>  <!-- estilizar otras etiquetas para que parezcan un boton -->
+
+    <a class="btn btn-primary" href="#">Enlace</a>
+    <button type="submit" class="btn btn-dark">Enviar</button>   <!-- para formulario -->
+    <input type="button" class="btn btn-danger" value="Aceptar">   <!-- input -->
+    <input type="submit" class="btn btn-warning" value="SEND">
+    <input type="reser" class="btn btn-info" value="REFRESH">
+
+    <hr>  <!-- estilizar con estilo "transparente" -->
+
+    <button class="btn btn-outline-primary">BOTON</button>
+    <button class="btn btn-outline-secondary">BOTON</button>
+    <button class="btn btn-outline-success">BOTON</button>
+    <button class="btn btn-outline-info">BOTON</button>
+    <button class="btn btn-outline-warning">BOTON</button>
+    <button class="btn btn-outline-danger">BOTON</button>
+    <button class="btn btn-outline-dark">BOTON</button>
+
+    <hr>  <!-- Botones con Tamaños -->
+
+    <button class="btn btn-primary btn-lg">BOTON</button>   <!-- grande -->
+    <button class="btn btn-primary">BOTON</button>  <!-- normal -->
+    <button class="btn btn-primary btn-sm">BOTON</button>  <!-- chico -->
+    <button class="btn btn-primary btn-block">Boton</button> <!-- ocupa toda la pantalla -->
+
+    <hr> <!-- Botones con Iconos -->
+
+    <button class="btn btn-primary btn-lg">
+      <i class="fa fa-telegram" aria-hidden="true"></i> Telegram
+    </button>
+
+    <button class="btn btn-info btn-lg">
+      <i class="fa fa-user"></i> Usuario
+    </button>
+
+    <button class="btn btn-danger btn-lg">
+      <i class="fa fa-pinterest-square" aria-hidden="true"></i> Pinterest
+    </button>
+    
+    <hr>  <!-- Estado de los botones -->
+    
+    <button class="btn btn-dark active">Hola</button>  <!-- Estilo activado -->
+    <button class="btn btn-dark disabled">Hola</button>  <!-- Estilo desactivado -->
+    <button class="btn btn-dark data-toggle=button">Hola</button> 
+
+    <hr>  <!-- Boton con menu al hacer click -->
+
+    <div class="dropdown">
+        <button class="btn btn-secondary" data-toggle="dropdown">Elegir</button>
+
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item">UNO</a>
+          <a href="#" class="dropdown-item">DOS</a>
+          <a href="#" class="dropdown-item">TRES</a>
+        </div>
+    </div>
+
+    <hr>  <!-- Boton con menu al hacer click con flecha -->
+
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Elegir</button>
+
+      <div class="dropdown-menu">
+        <a href="#" class="dropdown-item">UNO</a>
+        <a href="#" class="dropdown-item">DOS</a>
+        <a href="#" class="dropdown-item">TRES</a>
+      </div>
+    </div>
+
+   <hr>  <!-- Boton en grupos -->
+
+    <div class="btn-group">
+        <button class="btn btn-primary">Mi Boton</button>
+        <button class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">Toggle Dropdown </button>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item">UNO</a>
+          <a href="#" class="dropdown-item">DOS</a>
+          <a href="#" class="dropdown-item">TRES</a>
+        </div>
+    </div>
+
+    <hr>  <!-- Agrupar botones en una sola linea -->
+
+    <div class="btn-group">
+        <button class="btn btn-danger">Izquierda</button>
+        <button class="btn btn-danger">Centro</button>
+        <button class="btn btn-danger">Derecha</button>
+    </div>
+
+    <hr>  <!-- Separar botones en fila -->
+
+    <div class="btn btn-toolbar" role="toolbar">
+        <div class="btn-group mr-5">  <!-- mr-5 = margen derecha -->
+            <button class="btn btn-primary">Boton 1</button>
+            <button class="btn btn-primary">Boton 2</button>
+            <button class="btn btn-primary">Boton 3</button>
+            <button class="btn btn-primary">Boton 4</button>
+        </div>
+        <div class="btn-group mr-5">
+            <button class="btn btn-primary">Boton 5</button>
+            <button class="btn btn-primary">Boton 6</button>
+            <button class="btn btn-primary">Boton 7</button>
+        </div>
+        <div class="btn-group">
+            <button class="btn btn-primary">Boton 8</button>
+        </div>
+    </div>
+
+    <hr>  <!-- Botones verticales -->
+
+    <div class="btn-group-vertical">
+        <button class="btn btn-danger">Izquierda</button>
+        <button class="btn btn-danger">Centro</button>
+        <button class="btn btn-danger">Derecha</button>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/popper.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
