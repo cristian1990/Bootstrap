@@ -1,0 +1,12 @@
+/*A todas las clases que tengan col le aplicamos estos estilos*/
+[class^="col"] {
+    background-color: #c5e6fc;
+    border: 1px solid #391d7a;
+    min-height: 50px;
+}
+
+thead {
+    color: aliceblue;
+    font-style: normal;
+    font-family: Helvetica, sans-serif;
+}
