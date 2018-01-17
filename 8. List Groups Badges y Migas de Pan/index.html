@@ -1,0 +1,119 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- etiquetas meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- para iconos -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>List Groups Badges y Migas de Pan</title>
+  </head>
+  <body>
+   
+    <div class="container">
+
+        <br>  <!-- Lista de elementos li -->
+
+        <ul class="list-group">
+          <li class="list-group-item">Nombre</li>
+          <li class="list-group-item">Apellido</li>
+          <li class="list-group-item">Documento</li>
+          <li class="list-group-item">Nacionalidad</li>
+        </ul>
+
+        <hr>  <!-- Lista de elementos a (enlaces)-->
+
+        <ul class="list-group">
+          <a href="#" class="list-group-item">Enlace 1</a>
+          <a href="#" class="list-group-item">Enlace 2</a>
+          <a href="#" class="list-group-item">Enlace 3</a>
+          <a href="#" class="list-group-item">Enlace 4</a>
+          <a href="#" class="list-group-item">Enlace 5</a>
+        </ul>
+        
+        <hr>  <!-- cambiar colores a las listas -->
+
+        <ul class="list-group">
+          <a href="#" class="list-group-item list-group-item-primary">Enlace 1</a>
+          <a href="#" class="list-group-item list-group-item-dark">Enlace 2</a>
+          <a href="#" class="list-group-item list-group-item-warning">Enlace 3</a>
+          <a href="#" class="list-group-item list-group-item-success">Enlace 4</a>
+        </ul>
+
+        <hr>  <!-- Estilo contador de notificaciones -->
+
+        <ul class="list-group">
+          <a href="#" class="list-group-item">Descargas <span class="badge badge-primary">14</span></a> <!-- Cuadrado -->
+          <a href="#" class="list-group-item">Llamadas <span class="badge badge-primary badge-pill">19</span></a> <!-- Redondo (badge-pill) -->
+          <a href="#" class="list-group-item d-flex justify-content-between aling-item-center">Mensajes <span class="badge badge-dark">12</span></a> <!-- Alineamos con flexbox -->
+        </ul>
+
+        <hr>  <!-- Estilo contador de notificaciones -->
+
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-warning list-group-item-action"> <!-- Cambia de color al posicionarnos arriba -->
+              <div class="d-flex w-100 justify-content-between">
+                <h5>Tiene Notificaciones</h5>
+                <small>de facebook</small>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, sunt fugiat doloribus magni animi, voluptatibus obcaecati veritatis deserunt 
+                ut in laborum eius totam? Porro, magni! Minus tenetur dolorum asperiores autem.</p>
+            </a>
+        </div>
+
+        <br>
+
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active"> <!-- damos la sensacion de caja seleccionada -->
+              <div class="d-flex w-100 justify-content-between">
+                <h5>Tiene Notificaciones</h5>
+                <small>de facebook</small>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, sunt fugiat doloribus magni animi, voluptatibus obcaecati veritatis deserunt 
+                ut in laborum eius totam? Porro, magni! Minus tenetur dolorum asperiores autem.</p>
+            </a>
+        </div>
+
+        <br>  <!-- Añadimos padding y margin y cambiamos el color-->
+
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-dark list-group-item-action flex-column align-items-start active"> <!-- damos la sensacion de caja seleccionada -->
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1 px-5 pt-4">Tiene Notificaciones</h5>
+                <small class="px-5 pt-4">de facebook</small>
+              </div>
+              <p class="mt-1 px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, sunt fugiat doloribus magni animi, voluptatibus obcaecati veritatis deserunt
+                 ut in laborum eius totam? Porro, magni! Minus tenetur dolorum asperiores autem.</p>
+            </a>
+        </div>
+
+        <hr>  <!-- clase breadcrumb (Migas de pan) -->
+
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">Producto</li>
+          <li class="breadcrumb-item">Celular</li>
+          <li class="breadcrumb-item active">Samsung</li>
+        </ol>
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">Curso</li>
+            <li class="breadcrumb-item">Javascript</li>
+            <li class="breadcrumb-item">Principiante</li>
+            <li class="breadcrumb-item active">Variables</li>
+          </ol>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/popper.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

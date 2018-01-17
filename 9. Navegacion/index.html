@@ -1,0 +1,109 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- etiquetas meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- para iconos -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Navegacion</title>
+  </head>
+  <body>
+   
+    <div class="container">
+      
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <a href="#" class="navbar-brand">Logo</a>
+
+          <div class="navbar-collapse"> <!-- Colapsa cuando no hay espacio -->
+              <ul class="navbar-nav ml-auto">   <!-- Especificamos que queremos es un navegador a la derecha (ml-auto) -->
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+              </ul>     
+          </div>
+      </nav>
+
+      <hr>  <!-- Con menu de hamburguesa -->
+
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <a href="#" class="navbar-brand">Logo</a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navegador1"> <!-- colocamos el navegador para el boton -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navegador1"> <!-- Por defecto navegacion colapsada -->
+              <ul class="navbar-nav ml-auto">   <!-- Especificamos que queremos es un navegador a la derecha (ml-auto) -->
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+              </ul>     
+          </div>
+      </nav>
+
+      <hr>  <!-- Con buscador -->
+
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <a href="#" class="navbar-brand">Logo</a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navegador2"> <!-- colocamos el navegador para el boton -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navegador2"> <!-- Por defecto navegacion colapsada -->
+              <ul class="navbar-nav ml-auto">   <!-- Especificamos que queremos es un navegador a la derecha (ml-auto) -->
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+              </ul>
+              
+              <form class="form-inline">
+                  <input type="text" class="form-control" placeholder="Buscar">
+                  <button type="button" class="btn btn-outline-primary">Buscar</button>
+              </form>
+          </div>
+      </nav>
+
+      <hr>  <!-- Con un enlace extra -->
+
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <a href="#" class="navbar-brand">Logo</a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navegador3"> <!-- colocamos el navegador para el boton -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navegador3"> <!-- Por defecto navegacion colapsada -->
+              <ul class="navbar-nav ml-auto">   <!-- Especificamos que queremos es un navegador a la derecha (ml-auto) -->
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Marca</a>
+                    <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">Samsung</a>
+                      <a href="#" class="dropdown-item">Motorola</a>
+                      <a href="#" class="dropdown-item">Iphone</a>
+                    </div>
+                </li>
+              </ul>            
+          </div>
+      </nav>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/popper.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
