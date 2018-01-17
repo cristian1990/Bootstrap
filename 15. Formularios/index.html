@@ -1,0 +1,116 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- etiquetas meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- para iconos -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Formularios</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <h3 class="text-md-center">Formularios Bootstrap</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <form action="">      <!-- estilo inline -->
+                    <div class="form-group">
+                        <label for="formu1">Contraseña</label>   <!-- Vinculamos (formu1) -->
+                        <input id="formu1" type="password" class="form-control" placeholder="Estilo block">
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <form class="form-inline" action="">
+                    <div class="form-group">
+                        <label for="formu2">Contraseña</label>   <!-- Vinculamos (formu2) -->
+                        <input id="formu2" type="password" class="form-control" placeholder="Estilo inline">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <hr>
+
+        <h3>Tamaño formulario</h3>
+        <div class="row">
+            <input type="text" class="form-control form-control-lg" placeholder="Tamaño lg">
+            <input type="text" class="form-control" placeholder="Tamaño defecto">
+            <input type="text" class="form-control form-control-sm" placeholder="Tamaño sm">
+            <input type="text" class="form-control form-control-sm" placeholder="Deshabilitamos este campo" disabled>
+        </div>
+
+        <hr>
+
+        <h3>Checkbox y radios</h3>
+        <div class="form-check">
+            <label for="" class="form-check-label">
+                <input type="checkbox" class="form-check-input">Hombre
+            </label>
+        </div>
+
+        <div class="form-check">
+            <label for="" class="form-check-label">
+                <input type="checkbox" class="form-check-input">Mujer
+            </label>
+        </div>
+
+        <div class="form-check disabled">   <!-- Deshabilitamos (disabled) -->
+            <label for="" class="form-check-label">
+                <input type="checkbox" class="form-check-input" disabled>Deshabilitado    <!-- Deshabilitamos -->
+            </label>
+        </div>
+
+        <br>
+
+        <div class="form-check">
+            <label for="" class="form-check-label">
+                <input type="radio" class="form-check-input" name="radio" id="radio1" value="option1"> Casado <!-- Vinculamos (name="radio")-->
+            </label>
+        </div>
+
+        <div class="form-check">
+            <label for="" class="form-check-label">
+                <input type="radio" class="form-check-input" name="radio" id="radio2" value="option2" > Divorciado
+            </label>
+        </div>
+
+        <div class="form-check">
+            <label for="" class="form-check-label">
+                <input type="radio" class="form-check-input" name="radio" checked> Soltero
+            </label>
+        </div>
+
+        <div class="form-check" disabled>
+            <label for="" class="form-check-label">
+                <input type="radio" class="form-check-input" disabled> Deshabilitado
+            </label>
+        </div>
+
+        <br>
+
+        <div class="form-group">
+            <label for="form-mensaje">Mensaje</label>
+            <textarea class="form-control" id="form-mensaje" rows="3" placeholder="Escribir mensaje"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+         
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/popper.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
