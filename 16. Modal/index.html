@@ -1,0 +1,104 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- etiquetas meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- para iconos -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Modal</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <h1 class="text-md-center">Modal : Ventanas emergentes</h1>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">Mas info</button> <!-- Vinculamos (#modal1) -->
+
+        <!-- Ceando ventana -->
+        <div class="modal fade" id="modal1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Ejemplo modal 1</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="close">&times;</button>  <!-- Cerrar ventana (&times;) -->      
+                    </div>
+                    <div class="modal-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe iste optio aliquid quas. Illo quas amet rerum magnam blanditiis voluptatibus 
+                        dicta soluta qui, culpa fugiat, voluptas natus accusamus dolorum corporis?
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>  <!-- Para cerrar (data-dismiss)  -->
+                        <button type="button" class="btn btn-dark">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>  <!-- Añadimos enlace -->
+
+        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modal2">Mas info</button> <!-- Vinculamos (#modal1) -->
+        <a href="#modal2" class="btn btn-success" data-toggle="modal">Descargar</a>
+
+        <!-- Ceando ventana -->
+        <div class="modal fade" id="modal2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Ejemplo modal 2</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="close">&times;</button>  <!-- Cerrar ventana (&times;) -->         
+                    </div>
+                    <div class="modal-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe iste optio aliquid quas. Illo quas amet rerum magnam blanditiis voluptatibus 
+                        dicta soluta qui, culpa fugiat, voluptas natus accusamus dolorum corporis?
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>  <!-- Para cerrar (data-dismiss)  -->
+                        <button type="button" class="btn btn-dark">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>  <!-- Cambiamos tamaño -->
+
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal3">Mostrar</button> <!-- Vinculamos (#modal1) -->
+        <a href="#modal3" class="btn btn-warning" data-toggle="modal">Descargar</a>
+
+        <!-- Ceando ventana -->
+        <div class="modal fade" id="modal3">
+            <div class="modal-dialog modal-lg">   <!-- Cambio tamaño (modal-lg) -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Ejemplo modal 3</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="close">&times;</button>  <!-- Cerrar ventana (&times;) -->
+                    </div>
+                    <div class="modal-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe iste optio aliquid quas. Illo quas amet rerum magnam blanditiis voluptatibus 
+                        dicta soluta qui, culpa fugiat, voluptas natus accusamus dolorum corporis?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>  <!-- Para cerrar (data-dismiss)  -->
+                        <button type="button" class="btn btn-danger">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/popper.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
